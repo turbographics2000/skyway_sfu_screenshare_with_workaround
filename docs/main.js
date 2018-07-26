@@ -21,7 +21,6 @@ chrome.runtime.sendMessage('eiceogpklagmibnoccdincfglccflknk', { cap: true }, as
                 }
             }
         });
-        appendVideo(stream);
     } catch (e) {
         console.error(e);
         return;

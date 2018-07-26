@@ -1,6 +1,6 @@
 const myId = (new MediaStream).id;
 console.log(`myId:${myId}`);
-const skywayApiKey = '01099bd8-1083-4c33-ba9b-564a1377e901';
+const skywayApiKey = 'bea1e09a-a7f9-41fb-8700-e6d18ba907bd';
 const roomName = 'hoge_fuga_piyo_sfu';
 const roomMode = 'sfu';
 

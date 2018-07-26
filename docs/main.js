@@ -40,6 +40,7 @@ chrome.runtime.sendMessage('eiceogpklagmibnoccdincfglccflknk', { cap: true }, as
                 dummyRoom.on('open', _ => dummyRoom.close());
                 dummyRoom.on('close', _ => dummyPeer.destroy());
             });
+        });
         room.on('stream', stream => {
             console.log(`room on stream peerId:${stream.peerId}`);
             appendVideo(stream);
